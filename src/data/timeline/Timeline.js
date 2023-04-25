@@ -1,6 +1,6 @@
 import React from 'react';
 import './Timeline.css'
-import { Typography, Layout, Row, Col, Badge, Card } from 'antd';
+import { Typography, Row, Col, Badge, Card } from 'antd';
 import 'antd/dist/reset.css';
 import PatientCard from '../../atoms/patientCard/PatientCard';
 import patientData from '../PatientData';
