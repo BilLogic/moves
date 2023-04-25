@@ -280,8 +280,8 @@ const patientData = [
     metricData: [
     {
         metric: "Step Count",
-        data: [340, 533, 639, null, 894, 2789, 3493, null, 3784, 3678, 3890, null, 3786],
-        avg: 2382,
+        data: [280, 436, 578, null, 894, 2789, 3493, null, 3784, 3678, 3890, null, 3786],
+        avg: 2360,
         percentage: 2,
         decimal: 67,
         arrow: "down"
