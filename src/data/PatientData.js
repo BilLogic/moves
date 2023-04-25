@@ -280,7 +280,7 @@ const patientData = [
     metricData: [
     {
         metric: "Step Count",
-        data: [340, 533, 639, null, 894, 2789, 3493, null, 3784, 3678, 3890, null, 3786], // by week for weeks 1-7
+        data: [340, 533, 639, null, 894, 2789, 3493, null, 3784, 3678, 3890, null, 3786],
         avg: 2382,
         percentage: 2,
         decimal: 67,
@@ -296,7 +296,7 @@ const patientData = [
     },
     {
         metric: "Hrs of Sleep",
-        data: [6.4, 6.7, 6.8, null, 6.4, 7.2, 6.8, null, 7.4, 6.9, 7.2, null, 8.1]
+        data: [6.4, 6.7, 6.8, null, 6.4, 7.2, 6.8, null, 7.4, 6.9, 7.2, null, 8.1],
         avg: 6.9,
         percentage: 12,
         decimal: 5,
