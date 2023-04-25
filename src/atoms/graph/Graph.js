@@ -1,7 +1,6 @@
 import React from "react";
 import Chart from "react-apexcharts";
 import './Graph.css';
-import { Typography, Layout} from 'antd';
 import 'antd/dist/reset.css';
 
 function Graph(props) {
