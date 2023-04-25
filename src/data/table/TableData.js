@@ -42,16 +42,16 @@ const tableData = [
       pfTags: patientData[3].pfTags,
       piTags: patientData[3].piTags
     },
-    // {
-    //   key: patientData[4].key,
-    //   name: patientData[4].name,
-    //   age: patientData[4].age,
-    //   stepCount: patientData[4].metricData[0].avg,
-    //   heartRate: patientData[4].metricData[1].avg,
-    //   hrsOfSleep: patientData[4].metricData[2].avg,
-    //   pfTags: patientData[4].pfTags,
-    //   piTags: patientData[4].piTags
-    // },
+    {
+      key: patientData[4].key,
+      name: patientData[4].name,
+      age: patientData[4].age,
+      stepCount: patientData[4].metricData[0].avg,
+      heartRate: patientData[4].metricData[1].avg,
+      hrsOfSleep: patientData[4].metricData[2].avg,
+      pfTags: patientData[4].pfTags,
+      piTags: patientData[4].piTags
+    },
     // {
     //   key: patientData[5].key,
     //   name: patientData[5].name,
