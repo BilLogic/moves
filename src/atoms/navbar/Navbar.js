@@ -5,7 +5,7 @@ import { UserOutlined } from '@ant-design/icons';
 import 'antd/dist/reset.css';
 
 const { Title } = Typography;
-const { Header, Content, Footer, Sider } = Layout;
+const { Header } = Layout;
 
 function Navbar() {
   return (
