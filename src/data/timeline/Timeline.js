@@ -1,13 +1,11 @@
 import React from 'react';
 import './Timeline.css'
 import { Typography, Layout, Row, Col, Badge, Card } from 'antd';
-import { UserOutlined } from '@ant-design/icons';
 import 'antd/dist/reset.css';
 import PatientCard from '../../atoms/patientCard/PatientCard';
 import patientData from '../PatientData';
 
 const { Title } = Typography;
-const { Header, Content, Footer, Sider } = Layout;
 
 function Timeline(props) {
   return (
