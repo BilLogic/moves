@@ -27,7 +27,6 @@ const tableColumns = (setIndex) => [
             return (
               <Link to="/patient" onClick={()=> setIndex(index)}>{name}</Link>
             );
-            return null;
           }
         })}
       </>
