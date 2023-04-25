@@ -65,6 +65,14 @@ function Timeline(props) {
                     index={patientData[3].key}
                     setIndex={props.setIndex} />
             </Card>
+            <Card className='weeks-group-content' bodyStyle={{padding: "4px"}}>
+                <PatientCard className="weeks-group-card"
+                    name={patientData[4].name} 
+                    metricData={patientData[4].metricData} 
+                    dotColor={patientData[4].dotColor} 
+                    index={patientData[4].key}
+                    setIndex={props.setIndex} />
+            </Card>
         </Col>
       </Row>
   );
