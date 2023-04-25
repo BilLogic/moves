@@ -69,7 +69,7 @@ const Dashboard = (props) => {
           key: '1',
           label: `Table View`,
           children: <div>
-            <Table columns={tableColumns} dataSource={tableData} onChange={onChange2} setIndex={props.setIndex}/>
+            <Table columns={tableColumns(props.setIndex)} dataSource={tableData} onChange={onChange2} setIndex={props.setIndex}/>
           </div>,
         },
         {
