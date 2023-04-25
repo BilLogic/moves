@@ -1,12 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import Chart from "react-apexcharts";
 import './Graph.css';
-import { Typography, Layout, Avatar} from 'antd';
-import { UserOutlined } from '@ant-design/icons';
+import { Typography, Layout} from 'antd';
 import 'antd/dist/reset.css';
-
-const { Title } = Typography;
-const { Header, Content, Footer, Sider } = Layout;
 
 function Graph(props) {
   
