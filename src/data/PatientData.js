@@ -271,6 +271,45 @@ const patientData = [
         dotColor: "#f37f89",
         currentWeek: 9
 },
+{
+    key: 4,
+    name: 'Davis, Layla',
+    age: 69,
+    dob: "07/11/1952",
+    phone: "(724) 878-7788",
+    metricData: [
+    {
+        metric: "Step Count",
+        data: [340, 533, 639, null, 894, 2789, 3493, null, 3784, 3678, 3890, null, 3786], // by week for weeks 1-7
+        avg: 2382,
+        percentage: 2,
+        decimal: 67,
+        arrow: "down"
+    },
+    {
+        metric: "Heart Rate",
+        data: [80, 82, 86, null, 86, 84, 85, null, 82, 86, 88, null, 91]
+        avg: 85,
+        percentage: 3,
+        decimal: 41,
+        arrow: "up",
+    },
+    {
+        metric: "Hrs of Sleep",
+        data: [6.4, 6.7, 6.8, null, 6.4, 7.2, 6.8, null, 7.4, 6.9, 7.2, null, 8.1]
+        avg: 6.9,
+        percentage: 12,
+        decimal: 5,
+        arrow: "up"
+    }
+    ],
+     pfTags: ["moderate"],
+        pfScore: [22, 29, 31, null, 39, 42, 43, null, 46, 48, 53, null, 56],
+        piTags: ["good"],
+        piScore: [75, 72, 69, null, 63, 60, 58, null, 55, 50, 45, null, 40],
+        dotColor: "#52c41a",
+        currentWeek: 12
+},
 // {
 //     key: 4,
 //     name: 'Davis, Layla',
