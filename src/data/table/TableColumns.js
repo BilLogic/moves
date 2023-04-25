@@ -1,8 +1,9 @@
 import React from 'react';
 import { Tag } from 'antd';
 import { Link } from "react-router-dom";
+import patientData from '../PatientData';
 
-const tableColumns = [
+const tableColumns = (setIndex) => [
   {
     title: 'Name',
     dataIndex: 'name',
@@ -15,7 +16,21 @@ const tableColumns = [
     //   { text: 'Male', value: 'male' },
     //   { text: 'Female', value: 'female' },
     // ],
-    render: (name) => <Link to="/patient" >{name}</Link>,
+    // onClick={()=> props.setIndex(props.index)}
+    // render: (name) => <Link to="/patient" >{name}</Link>,
+    render: (_, { name }) => (
+      <>
+        {patientData.map((patient) => {
+          let index = 0;
+          if (patient.name === name) {
+            index = patient.key;
+            return (
+              <Link to="/patient" onClick={()=> setIndex(index)}>{name}</Link>
+            );
+          }
+        })}
+      </>
+    ),
   },
   {
     title: 'Age',
@@ -84,7 +99,7 @@ const tableColumns = [
       <>
         {piTags.map((piTag) => {
           let color = 'yellow';
-          if (piTag === 'poor') {
+          if (piTag === 'severe') {
             color = 'red';
           }
           else if (piTag === 'good') {
