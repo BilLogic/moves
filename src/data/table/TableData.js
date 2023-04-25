@@ -1,6 +1,3 @@
-import React from 'react';
-import { Space, Tag } from 'antd';
-import { ColumnsType } from 'antd/es/table';
 import patientData from '../PatientData';
 
 
