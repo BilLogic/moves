@@ -288,7 +288,7 @@ const patientData = [
     },
     {
         metric: "Heart Rate",
-        data: [80, 82, 86, null, 86, 84, 85, null, 82, 86, 88, null, 91]
+        data: [80, 82, 86, null, 86, 84, 85, null, 82, 86, 88, null, 91],
         avg: 85,
         percentage: 3,
         decimal: 41,
