@@ -7,7 +7,7 @@ const stepCountAll = {
     xaxis: {
       categories: allWeeks
     },
-    colors: ["#fbaf5d", "#fbaf5d", "#52c41a", "#f37f89"],
+    colors: ["#fbaf5d", "#fbaf5d", "#52c41a", "#f37f89", "#52c41a"],
   }
 
 const stepCountAnnotated = {
@@ -96,7 +96,7 @@ const stepCountAnnotated = {
     xaxis: {
       categories: allWeeks
     },
-    colors: ["#fbaf5d", "#fbaf5d", "#52c41a", "#f37f89"],
+    colors: ["#fbaf5d", "#fbaf5d", "#52c41a", "#f37f89", "#52c41a"],
   }
 
   const heartRateAnnotated = {
@@ -188,7 +188,7 @@ const hrsOfSleepAll = {
     xaxis: {
       categories: allWeeks
     },
-    colors: ["#fbaf5d", "#fbaf5d", "#52c41a", "#f37f89"],
+    colors: ["#fbaf5d", "#fbaf5d", "#52c41a", "#f37f89", "#52c41a"],
   }
 
   const hrsOfSleepAnnotated = {
